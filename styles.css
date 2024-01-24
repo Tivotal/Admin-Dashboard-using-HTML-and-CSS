@@ -1,0 +1,192 @@
+/* Created by Tivotal */
+
+/* Google Fonts(Poppins) */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(219, 219, 219);
+}
+
+.header {
+  height: 60px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.header .left,
+.left .search-box,
+.header .right {
+  display: flex;
+  align-items: center;
+}
+
+.left a {
+  font-size: 25px;
+  font-weight: 600;
+  color: #000;
+  margin: 2rem 8rem 2rem 2rem;
+}
+
+.search-box input {
+  width: 220px;
+  padding: 9px;
+  background: rgb(228, 228, 228);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.search-box i {
+  padding: 0.66rem;
+  background: #000;
+  color: #fff;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+}
+
+.right i {
+  font-size: 18px;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+.right .profile {
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.profile img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.wrapper {
+  margin-top: 10px;
+}
+
+.wrapper .nav {
+  background: #fff;
+  height: 100%;
+  width: 230px;
+  overflow-y: auto;
+  position: fixed;
+}
+
+.nav .sidebar {
+  padding: 1px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar span {
+  font-size: 14px;
+  color: grey;
+  margin: 1rem 3rem;
+}
+
+.sidebar a {
+  width: 100%;
+  padding: 0.8rem 3rem;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(100, 100, 100);
+}
+
+.sidebar .bottom {
+  margin-top: 4rem;
+  padding-bottom: 7rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom a {
+  font-size: 14px;
+}
+
+.sidebar a:hover {
+  background: rgb(235, 235, 235);
+}
+
+.sidebar a.active {
+  border-left: 2px solid rgb(100, 100, 100);
+}
+
+.wrapper .main {
+  width: 80%;
+  position: relative;
+  left: 230px;
+  padding: 1rem;
+}
+
+.main .banner {
+  width: 100%;
+  background: rgb(37, 37, 37);
+  color: #fff;
+  padding: 0.5rem 1rem 1rem 3rem;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.banner h1,
+.banner p,
+.banner button {
+  margin: 10px;
+}
+
+.banner button {
+  display: block;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.main .table-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.table-wrapper .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+.table-wrapper table {
+  background: #fff;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 10px;
+}
+
+table td,
+table th {
+  padding: 0.2rem 1.5rem;
+}
+
+table th {
+  font-size: 15px;
+}
+
+table td {
+  font-size: 13px;
+  color: rgb(100, 100, 100);
+}
